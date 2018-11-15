@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Montserrat|Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Lato:300i|Montserrat|Playfair+Display');
 
 nav a{
     font-family: 'Montserrat', sans-serif;
@@ -11,16 +11,12 @@ nav a{
     height: 4rem;
 }
 
-.carousel{
+#carouselExampleIndicators{
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-/* .aboutImg{
-    height: 361px;
-} */
 
 h2{
     font-family: 'Fjalla One', sans-serif;
@@ -29,14 +25,12 @@ h2{
 
 #about p{
     font-family: 'Playfair Display', serif;
-    font-size: 4rem;
     color: #4db8c4;
 }
 
 #about p.saadia{
     font-family: 'Montserrat', sans-serif;
     color: gray;
-    font-size: 2rem;
 }
 
 .main-text{
@@ -47,9 +41,26 @@ h2{
 }
 
 .text-center h1{
-    font-size: 5rem;
     font-family: 'Fjalla One', sans-serif;
-    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-color: grey;
+}
+
+#carouselExampleControls{
+    font-family: 'Lato', sans-serif;
+    color: #4db8c4;
+}
+
+h4{
+    font-family: 'Fjalla One', sans-serif;
+    color: #4db8c4;
+}
+
+@media screen and (max-width: 768px) {
+.instagram-media{display: none;}
+#logo{display: none;}
+}
+
+u{
+    color: #4db8c4;
 }
