@@ -65,3 +65,21 @@ p.display-4 {font-size: 2rem;}
 u{
     color: #4db8c4;
 }
+
+button{
+    background-color: #4db8c4;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: bolder;
+}
+
+label{
+    font-family: 'Lato', sans-serif;
+}
+
+button.btn-sharp {
+  border-radius:0;
+}
+
+.contact{
+    font-family: 'Fjalla One', sans-serif;
+}
